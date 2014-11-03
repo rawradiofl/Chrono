@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F01CF1C11A019690002011E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01CF1C01A019690002011E4 /* main.cpp */; };
+		F01CF1C91A0196DF002011E4 /* Chrono.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01CF1C81A0196DF002011E4 /* Chrono.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F01CF1BD1A019690002011E4 /* Chrono */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chrono; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01CF1C01A019690002011E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F01CF1C71A0196AB002011E4 /* Chrono.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chrono.h; sourceTree = "<group>"; };
+		F01CF1C81A0196DF002011E4 /* Chrono.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chrono.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		F01CF1B41A019690002011E4 = {
 			isa = PBXGroup;
 			children = (
+				F01CF1C71A0196AB002011E4 /* Chrono.h */,
+				F01CF1C81A0196DF002011E4 /* Chrono.cpp */,
 				F01CF1BF1A019690002011E4 /* Chrono */,
 				F01CF1BE1A019690002011E4 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01CF1C91A0196DF002011E4 /* Chrono.cpp in Sources */,
 				F01CF1C11A019690002011E4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
