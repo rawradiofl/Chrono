@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  Chrono
-//
-//  Created by Scott Martin on 10/29/14.
-//  Copyright (c) 2014 Me. All rights reserved.
-//
+
 
 #include <iostream>
 #include "Chrono.h"
